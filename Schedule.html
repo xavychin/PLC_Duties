@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
     <script src="Duties_Functions.js"></script>
     <title></title>
 </head>
 <body>
 
+    <label for="cbts">List Of Combatants:</label>
+    <textarea  type="textarea" id="cbts" name="cbts" rows="5" col="20"></textarea>
+
+    <label for="svc">List Of Service:</label>
+    <textarea  type="textarea" id="svc" name="svc" rows="5" col="20"></textarea>
+
+    <label for="med_appt">Personnel On MA:</label>
+    <textarea  type="textarea" id="med_appt" name="med_appt" rows="5" col="20"></textarea>
+
+    <label for="med_leave">Personnel On MC:</label>
+    <textarea  type="textarea" id="med_leave" name="med_leave" rows="5" col="20"></textarea>
+
+    <label for="leave_off">Personnel On Leave / OFF:</label>
+    <textarea  type="textarea" id="leave_off" name="leave_off" rows="5" col="20"></textarea>
+
     <table>
         <tr>
-          <th>0600-0700</th>
+          <th id="date_time"></th>
         </tr>
         <tr>
 
@@ -17,6 +34,8 @@
 
         </tr>
       </table>
-
+    <script>
+        curr_date();
+    </script>
 </body>
 </html>
