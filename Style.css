@@ -1,0 +1,15 @@
+#duty_tbl{
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid;
+}
+
+#duty_tbl th, #duty_tbl td{
+    border-collapse: collapse;
+    border: 1px solid;
+    text-align: center;
+}
+
+.duties{
+    
+}

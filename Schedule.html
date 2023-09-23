@@ -9,7 +9,7 @@
 <body>
 
     <label for="cbts">List Of Combatants:</label>
-    <textarea  type="textarea" id="cbts" name="cbts" rows="5" col="20"></textarea>
+    <textarea onchange="ttl_duty_personnel()" type="textarea" id="cbts" name="cbts" rows="5" col="20"></textarea>
 
     <label for="svc">List Of Service:</label>
     <textarea  type="textarea" id="svc" name="svc" rows="5" col="20"></textarea>
@@ -23,15 +23,27 @@
     <label for="leave_off">Personnel On Leave / OFF:</label>
     <textarea  type="textarea" id="leave_off" name="leave_off" rows="5" col="20"></textarea>
 
-    <table>
+    <br><br>
+
+    <table id="duty_tbl">
         <tr>
-          <th id="date_time"></th>
+          <th colspan="14" id="date_time"></th>
         </tr>
         <tr>
-
-        </tr>
-        <tr>
-
+          <td></td>
+          <td>0600-0700</td>
+          <td>0700-0800</td>
+          <td>0800-0900</td>
+          <td>0900-1000</td>
+          <td>1000-1100</td>
+          <td>1100-1200</td>
+          <td>1200-1300</td>
+          <td>1300-1400</td>
+          <td>1400-1500</td>
+          <td>1500-1600</td>
+          <td>1600-1700</td>
+          <td>1700-1800</td>
+          <td></td>
         </tr>
       </table>
     <script>
