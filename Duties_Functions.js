@@ -84,3 +84,10 @@ function insert_personnel(personnel){
         
     }
 }
+
+function randomize_duty(){
+    var duties_items = ["SCA", "IN", "OUT", "DESK", "XRAY", "PAC" , "SENTRY"];
+    var duty_item = duties_items[Math.floor(Math.random()*duties_items.length)];
+    var duty_hrs = 66;
+    //ttl_ppl
+}
