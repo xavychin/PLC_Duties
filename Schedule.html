@@ -9,20 +9,25 @@
 <body>
 
     <label for="cbts">List Of Combatants:</label>
-    <textarea onchange="ttl_duty_personnel()" type="textarea" id="cbts" name="cbts" rows="5" col="10"></textarea>
+    <textarea onchange="ttl_duty_personnel()" type="textarea" id="cbts" name="cbts" rows="5" col="10">1&#13;&#10;2&#13;&#10;3</textarea>
 
     <label for="svc">List Of Service:</label>
-    <textarea onchange="ttl_duty_personnel()" type="textarea" id="svc" name="svc" rows="5" col="10"></textarea>
+    <textarea onchange="ttl_duty_personnel()" type="textarea" id="svc" name="svc" rows="5" col="10">6&#13;&#10;7&#13;&#10;8&#13;&#10;9&#13;&#10;10&#13;&#10;11&#13;&#10;12</textarea>
 
     <button onclick="randomize_duty()">Plan Duty</button>
+    <!--<button onclick="reset_duty()">Reset Duty</button>-->
 
     <br><br>
 
     <table id="duty_tbl">
         <tr>
+          <th></th>
+          <th></th>
           <th colspan="14" id="date_time"></th>
         </tr>
         <tr>
+          <!--<td>MORNING</td>
+          <td>AFTERNOON</td>-->
           <td></td>
           <td>0600-0700</td>
           <td>0700-0800</td>
